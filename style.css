@@ -1,0 +1,65 @@
+body{
+    margin:0;
+}
+.bgimg{
+    background-image: url("tech.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.container{
+    background-color: rgb(0,0,0,0.61);
+    color:#4dd3cd;
+    text-align: center;
+    font-family: "Arial";
+    position: absolute;
+    bottom:01px;
+    padding-bottom: 10px;
+    width:100%;
+}
+.heading{
+    color:#4dd3cd;
+    font-size:35px;
+    text-align: center;
+    font-family:"Bree serif";
+    font-weight: bolder;
+
+}
+p{
+    font-family: "Arial";
+    font-size: 20px;
+    color:#323f4b;
+    padding:10px;
+}
+#bt1{
+    text-align: center;
+    border-radius:8px;
+    padding: 10px;
+    border-color:rgb(124, 122, 122);
+    font-family: "Arial";
+    position:left;
+}
+#bt2{
+    text-align: center;
+    border-radius:8px;
+    padding: 10px;
+    border-color:rgb(120, 118, 118);
+    font-family: "Arial";
+    background-color: #4dd3cd;
+    color: white;
+    font-weight:bolder;
+}
+h1::first-letter{
+    font-style: Copperplate;
+    font-size: 38px;
+}
+#bt2:hover{
+    background-color: white;
+    color:#0d0d0d;
+    border:0;
+    size: 25px;
+}
+#bt1:hover{
+    background-color: rgb(61, 61, 61);
+    color:#ffffff;
+    border:5px;
+}
